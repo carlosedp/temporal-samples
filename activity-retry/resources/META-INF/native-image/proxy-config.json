@@ -1,0 +1,17 @@
+[
+  {
+    "interfaces":["io.temporal.client.ActivityCompletionClient"]
+  },
+  {
+    "interfaces":["io.temporal.client.WorkflowClient"]
+  },
+  {
+    "interfaces":["io.temporal.serviceclient.WorkflowServiceStubs"]
+  },
+  {
+    "interfaces":["zio.temporal.activity.ZActivityStub","EchoActivity"]
+  },
+  {
+    "interfaces":["zio.temporal.workflow.ZWorkflowStub","EchoWorkflow"]
+  }
+]
